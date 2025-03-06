@@ -1,0 +1,196 @@
+{
+  "users": {
+    "eb3266907@gmail.com": {
+      "userId": "c851a7ce-cfb0-4ce3-8dcc-2d93f47d5125",
+      "nome": "Emerson",
+      "senha": "1234",
+      "allTasks": {
+        "working": {
+          "activeTasks": {
+            "91afa764-f82a-448f-9ed5-3a4a336b1cbc": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste 2",
+              "dataTarefa": "2025-03-04"
+            },
+            "b9845343-0a31-4823-9281-4f4982b0138f": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste 3",
+              "dataTarefa": "2025-03-04"
+            },
+            "a906c148-6dcf-4a9b-a890-b148b02452f0": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste4",
+              "dataTarefa": "2025-03-04"
+            },
+            "99682fa7-a15c-40dc-9f95-54fcf6a90168": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste 5",
+              "dataTarefa": "2025-03-04"
+            },
+            "cdbf1bf7-2bb7-4dd2-99e1-a228fb3f2b0b": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste 6",
+              "dataTarefa": "2025-03-04"
+            },
+            "2b6eeb77-a227-4508-8621-b5da03781a01": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste 7",
+              "dataTarefa": "2025-03-04"
+            }
+          }
+        },
+        "notWorking": {
+          "tarefasFeitas": {
+            "7eab2c7d-358b-4b0c-ab11-ff41a8d82252": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste1",
+              "dataTarefa": "2025-03-04"
+            }
+          }
+        }
+      },
+      "ecoTasks": {}
+    }
+  },
+  "login": {
+    "eb3266907@gmail.com": {
+      "userId": "c851a7ce-cfb0-4ce3-8dcc-2d93f47d5125",
+      "nome": "Emerson",
+      "senha": "1234",
+      "allTasks": {
+        "working": {
+          "activeTasks": {
+            "91afa764-f82a-448f-9ed5-3a4a336b1cbc": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste 2",
+              "dataTarefa": "2025-03-04"
+            },
+            "b9845343-0a31-4823-9281-4f4982b0138f": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste 3",
+              "dataTarefa": "2025-03-04"
+            },
+            "a906c148-6dcf-4a9b-a890-b148b02452f0": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste4",
+              "dataTarefa": "2025-03-04"
+            },
+            "99682fa7-a15c-40dc-9f95-54fcf6a90168": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste 5",
+              "dataTarefa": "2025-03-04"
+            },
+            "cdbf1bf7-2bb7-4dd2-99e1-a228fb3f2b0b": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste 6",
+              "dataTarefa": "2025-03-04"
+            },
+            "2b6eeb77-a227-4508-8621-b5da03781a01": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste 7",
+              "dataTarefa": "2025-03-04"
+            }
+          }
+        },
+        "notWorking": {
+          "tarefasFeitas": {
+            "7eab2c7d-358b-4b0c-ab11-ff41a8d82252": {
+              "dataCriacao": "2025-03-04",
+              "textTarefa": "Teste1",
+              "dataTarefa": "2025-03-04"
+            }
+          }
+        }
+      },
+      "ecoTasks": {}
+    }
+  },
+  "ecoTasks": {
+    "dataEcoTasks": {
+      "facil": {
+        "2d827b9d-ffee-4fc1-b1ba-83ca74113ecf": {
+          "textoEcoTask": "Realize uma caminhada de 20 minutos",
+          "descricao": "Caminhe por 20 minutos no seu bairro. Exercite-se, respire ar fresco e reduza o uso de veículos poluentes."
+        },
+        "270437b7-ff63-4fba-ac94-93b5533751d6": {
+          "textoEcoTask": "Pratique 20 minutos de exercícios",
+          "descricao": "Se exercite por 20 minutos em sua casa ou no seu bairro.",
+          "dataInicio": "2025-03-06",
+          "dataFim": "2025-03-06"
+        },
+        "6a72629c-fabc-4c00-b495-4de3e4d5bd84": {
+          "textoEcoTask": "Dedique-se ao cuidado de uma planta",
+          "descricao": "Cuide de uma planta",
+          "dataInicio": "2025-03-06",
+          "dataFim": "2025-03-07"
+        }
+      },
+      "medio": {
+        "4aef685a-60ec-4699-a663-a4f30f50b2f2": {
+          "textoEcoTask": "Doe 1 item que não usa mais",
+          "descricao": "Doe 1 item que não usa mais (roupas, livros, eletrônico e etc...)"
+        },
+        "5414f3ee-b9e6-4918-8f12-a58858e166be": {
+          "textoEcoTask": "Separe 3 itens recicláveis",
+          "descricao": "Separe itens recicláveis e leve-os para a coleta seletiva",
+          "dataInicio": "2025-03-06",
+          "dataFim": "2025-03-08"
+        },
+        "28bb0e3c-055f-4370-9865-d2f00e8c4689": {
+          "textoEcoTask": "Realize uma caminhada de 40 minutos",
+          "descricao": "Caminhe por 40 minutos no seu bairro. Exercite-se, respire ar fresco e reduza o uso de veículos poluentes."
+        },
+        "79fdca8e-f0bc-4f40-82d9-b162dd65d391": {
+          "textoEcoTask": "Faça uma receita com sobras de alimentos",
+          "descricao": "Prepare um lanche com sobras de comida. Evite o desperdício de alimentos e economize dinheiro"
+        },
+        "a5195198-c9a1-4706-8bc6-8a8fb09d3324": {
+          "textoEcoTask": "Pratique 20 minutos de exercícios",
+          "descricao": "Se exercite por 20 minutos em sua casa ou no seu bairro."
+        }
+      },
+      "dificil": {
+        "1a5b8155-653a-4a08-be2f-5c891d46ef24": {
+          "textoEcoTask": "Doe 3 itens que não usa mais",
+          "descricao": "Doe 3 itens que não usa mais (roupas, livros, eletrônico e etc...)",
+          "dataInicio": "2025-03-06",
+          "dataFim": "2025-03-12"
+        },
+        "b28f447b-8697-4ad4-9700-a9199e27b748": {
+          "textoEcoTask": "Participe de ação de limpeza comunitária",
+          "descricao": "Participe de uma pequena limpeza em seu bairro, praias, ou parques. Contribua para um ambiente mais limpo e agradável."
+        },
+        "ded69fae-b0c7-4408-9c25-d209e90ae3ae": {
+          "textoEcoTask": "Plante uma semente ou uma muda",
+          "descricao": "Plante uma semente ou uma muda. Plante-os em sua casa ou em um espaço comunitário próximo para contribuir para um planeta mais verde."
+        }
+      }
+    },
+    "ecoTasksAtuais": {
+      "facil": {
+        "6a72629c-fabc-4c00-b495-4de3e4d5bd84": {
+          "textoEcoTask": "Dedique-se ao cuidado de uma planta",
+          "descricao": "Cuide de uma planta",
+          "dataInicio": "2025-03-06",
+          "dataFim": "2025-03-07"
+        }
+      },
+      "medio": {
+        "5414f3ee-b9e6-4918-8f12-a58858e166be": {
+          "textoEcoTask": "Separe 3 itens recicláveis",
+          "descricao": "Separe itens recicláveis e leve-os para a coleta seletiva",
+          "dataInicio": "2025-03-06",
+          "dataFim": "2025-03-08"
+        }
+      },
+      "dificil": {
+        "1a5b8155-653a-4a08-be2f-5c891d46ef24": {
+          "textoEcoTask": "Doe 3 itens que não usa mais",
+          "descricao": "Doe 3 itens que não usa mais (roupas, livros, eletrônico e etc...)",
+          "dataInicio": "2025-03-06",
+          "dataFim": "2025-03-12"
+        }
+      }
+    }
+  }
+}

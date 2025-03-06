@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Task</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/ecoTask.css">
+</head>
+<body onload="carregarEcoTasks()">
+    <div class="containerEcoTask">
+        <div onclick="btnLinkOption('index.html')" id="btnVoltarHome">
+            <span class="material-symbols-outlined">arrow_back</span>
+            <!-- <h3>Voltar</h3> -->
+        </div>
+        <header class="ecoTaskNavbar">   
+            <div class="logoEcoTask">
+                <a href="/ecoTask.html"><h1>ECO TASK</h1></a>
+            </div>
+        </header>
+        <div class="containerTasksRanking">
+            <div class="containerTasks">
+                <div class="resumoEcoTask">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint fugiat hic aliquam minus totam quasi labore. Ipsum aut, quidem ipsam repellat laborum reiciendis libero aspernatur optio mollitia porro itaque. Ullam!</p>
+                </div>
+                <div class="ecoTasks">
+                    <div class="dificultyEcoTasks">
+                        <div class="dificultyText">
+                            <p>Fácil</p>
+                            <p id="easyCountdown">23h:59m:59s</p>
+                        </div>
+                        <div id="easyEcoTasks" class="dificultyTasks">
+                        </div>
+                    </div>
+                    <div class="dificultyEcoTasks">
+                        <div class="dificultyText">
+                            <p>Médio</p>
+                            <p id="mediumCountdown">2d:23h:59m:59s</p>
+                        </div>
+                        <div id="mediumEcoTasks" class="dificultyTasks">
+                            <div class="ecoTask">
+                                <p>Regue uma planta</p>
+                                <span class="material-symbols-outlined">check_box_outline_blank</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dificultyEcoTasks">
+                        <div class="dificultyText">
+                            <p>Difícil</p>
+                            <p id="hardCountdown">6d:23h:59m:59s</p>
+                        </div>
+                        <div id="hardEcoTasks" class="dificultyTasks">
+                            <div class="ecoTask">
+                                <p>Regue uma planta</p>
+                                <span class="material-symbols-outlined">check_box_outline_blank</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="containerRanking" class="containerRanking">
+                <div class="headerRanking">
+                    <p>Ranking</p>
+                    <div onclick="toggleRanking()" class="btnToggleRanking">
+                        <div class="toggleCircle"></div>
+                    </div>
+                </div>
+                <div class="ranking">
+                    <div class="rankingLegend">
+                        <p class="rankingLegendPosicao" >Posição</p>
+                        <p class="rankingLegendNome" >Nome</p>
+                        <p class="rankingLegendPontos" >Pontos</p>
+
+                    </div>
+                    <div class="usersRanking">
+                        <div class="userRanking">
+                            <p class="userRankingPosicao">1º</p>
+                            <p class="userRankingNome">Emerson</p>
+                            <p class="userRankingPontos">9999</p>
+                        </div>
+                        <div class="userRanking">
+                            <p class="userRankingPosicao">2º</p>
+                            <p class="userRankingNome">Vitório</p>
+                            <p class="userRankingPontos">1000</p>
+                        </div>
+                        <div class="userRanking">
+                            <p class="userRankingPosicao">1000º</p>
+                            <p class="userRankingNome">Emerson</p>
+                            <p class="userRankingPontos">500</p>
+                        </div>
+                        <div class="userRanking">
+                            <p class="userRankingPosicao">1000º</p>
+                            <p class="userRankingNome">Emerson</p>
+                            <p class="userRankingPontos">500</p>
+                        </div>
+                        <div class="userRanking">
+                            <p class="userRankingPosicao">1000º</p>
+                            <p class="userRankingNome">Emerson</p>
+                            <p class="userRankingPontos">500</p>
+                        </div>
+                        <div class="userRanking">
+                            <p class="userRankingPosicao">1000º</p>
+                            <p class="userRankingNome">Emerson</p>
+                            <p class="userRankingPontos">500</p>
+                        </div>
+                        <div class="userRanking">
+                            <p class="userRankingPosicao">1000º</p>
+                            <p class="userRankingNome">Emerson</p>
+                            <p class="userRankingPontos">500</p>
+                        </div>
+                        <div class="userRanking">
+                            <p class="userRankingPosicao">1000º</p>
+                            <p class="userRankingNome">Emerson</p>
+                            <p class="userRankingPontos">500</p>
+                        </div>
+                        <div class="userRanking">
+                            <p class="userRankingPosicao">1000º</p>
+                            <p class="userRankingNome">Emerson</p>
+                            <p class="userRankingPontos">500</p>
+                        </div>
+                        <div class="userRanking">
+                            <p class="userRankingPosicao">1000º</p>
+                            <p class="userRankingNome">Emerson</p>
+                            <p class="userRankingPontos">500</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="scripts/ecoTask.js"></script>
+</body>
+</html>

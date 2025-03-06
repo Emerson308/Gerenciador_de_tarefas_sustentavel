@@ -1,0 +1,29 @@
+{
+  "name": "app_habito_sustentabilidade",
+  "version": "1.0.0",
+  "description": "a",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "d" : "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emerson308/App_habito_sustentabilidade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emerson308/App_habito_sustentabilidade/issues"
+  },
+  "homepage": "https://github.com/Emerson308/App_habito_sustentabilidade#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "open": "^10.1.0"
+  },
+  "devDependencies": {
+    "electron": "^35.0.0"
+  }
+}

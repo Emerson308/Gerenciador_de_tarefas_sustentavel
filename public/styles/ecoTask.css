@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a {
+  transition: 0.3s ease-in-out opacity;
+}
+a:hover {
+  opacity: 0.6;
+}
+
+.containerEcoTask {
+  min-height: 100vh;
+  width: 100%;
+  border: 1px solid red;
+  overflow-x: hidden;
+}
+.containerEcoTask * {
+  display: flex;
+}
+
+.ecoTaskNavbar {
+  height: 12vh;
+  background: #427066;
+  flex-direction: row;
+  flex-flow: column;
+  justify-content: space-around;
+  margin-bottom: 2vh;
+}
+.ecoTaskNavbar .logoEcoTask {
+  margin-left: 5vw;
+  color: #fff;
+}
+
+#btnVoltarHome {
+  border-radius: 25px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-left: 1vw;
+  margin-bottom: 7px;
+  height: 40px;
+  cursor: pointer;
+  width: 40px;
+}
+
+.containerTasksRanking {
+  margin: 50px 5vw;
+  width: 90%;
+  min-height: 300px;
+}
+.containerTasksRanking .containerTasks {
+  flex: 2;
+  flex-flow: column;
+}
+.containerTasksRanking .containerTasks .resumoEcoTask {
+  color: gray;
+  margin-bottom: 5vh;
+  width: 80%;
+}
+.containerTasksRanking .containerTasks .ecoTasks {
+  flex-flow: column;
+}
+.containerTasksRanking .containerTasks .ecoTasks .dificultyEcoTasks {
+  flex-flow: column;
+  margin-bottom: 50px;
+}
+.containerTasksRanking .containerTasks .ecoTasks .dificultyEcoTasks .dificultyText {
+  font-size: 30px;
+  margin-bottom: 10px;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.containerTasksRanking .containerTasks .ecoTasks .dificultyEcoTasks .dificultyText p {
+  margin-right: 5%;
+}
+.containerTasksRanking .containerTasks .ecoTasks .dificultyEcoTasks .dificultyTasks {
+  flex-flow: column;
+}
+.containerTasksRanking .containerRanking {
+  height: 70vh;
+  flex-direction: column;
+}
+.containerTasksRanking .containerRanking .headerRanking {
+  font-size: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 90px;
+  align-items: center;
+  width: 400px;
+  justify-content: space-between;
+  padding: 0 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin-bottom: 5px;
+}
+.containerTasksRanking .containerRanking .headerRanking .btnToggleRanking {
+  height: 45px;
+  width: 120px;
+  padding: 0 5px;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  background: lightgray;
+  border: 1px solid #999999;
+  border-radius: 25px;
+  transition: 0.3s ease-in-out justify-content;
+}
+.containerTasksRanking .containerRanking .headerRanking .btnToggleRanking .toggleCircle {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid #999999;
+  background: white;
+}
+.containerTasksRanking .containerRanking .ranking {
+  flex: 1;
+  flex-direction: column;
+  transform: translateY(-200%);
+  overflow: auto;
+}
+.containerTasksRanking .containerRanking .ranking .rankingLegend {
+  flex-shrink: 0;
+  height: 60px;
+  padding: 0 28px;
+  width: 100%;
+  margin-bottom: 10px;
+  align-items: center;
+  font-size: 15px;
+}
+.containerTasksRanking .containerRanking .ranking .rankingLegend .rankingLegendPosicao {
+  flex: 1;
+}
+.containerTasksRanking .containerRanking .ranking .rankingLegend .rankingLegendNome {
+  flex: 5;
+  padding-left: 5%;
+}
+.containerTasksRanking .containerRanking .ranking .rankingLegend .rankingLegendPontos {
+  flex: 2;
+  justify-content: flex-end;
+}
+.containerTasksRanking .containerRanking .ranking .usersRanking {
+  padding: 0 20px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.containerTasksRanking .containerRanking .ranking .usersRanking .userRanking {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+  padding: 0 10px;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.containerTasksRanking .containerRanking .ranking .usersRanking .userRanking .userRankingPosicao {
+  flex: 14%;
+}
+.containerTasksRanking .containerRanking .ranking .usersRanking .userRanking .userRankingNome {
+  flex: 66%;
+  padding-left: 5%;
+}
+.containerTasksRanking .containerRanking .ranking .usersRanking .userRanking .userRankingPontos {
+  flex: 20%;
+  justify-content: flex-end;
+}
+
+.ecoTask {
+  height: 45px;
+  margin: 10px 5%;
+  width: 90%;
+  align-items: center;
+  padding: 0 5%;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 92, 21, 0.2);
+}
+.ecoTask p {
+  font-size: 20px;
+}
+.ecoTask span {
+  font-size: 30px;
+}
+
+.containerRanking.activeRanking {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.containerRanking.activeRanking .headerRanking .btnToggleRanking {
+  background: #427066;
+  justify-content: flex-end;
+}
+.containerRanking.activeRanking .ranking {
+  transform: translateY(0);
+}/*# sourceMappingURL=ecoTask.css.map */

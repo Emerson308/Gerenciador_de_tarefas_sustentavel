@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - gerenciador de tarefas</title>
+    <link rel="stylesheet" href="/styles/css-estilo_login.css"> <!-- Arquivo CSS externo -->
+</head>
+<body>
+
+    <div class="login-form">
+
+        <!-- Formulário de Login -->
+        <form id="formLogin" action="/salvar-login" method="POST">
+            <div class="input-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required autocomplete="email">
+            </div>
+
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required autocomplete="current-password">
+            </div>
+
+            <button type="submit" class="login-button">Entrar</button>
+        </form>
+
+        <!-- Link para cadastro -->
+        <p class="signup-link">Ainda não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+        <div id="mensagemVerificacao" class="mensagemVerificacao"></div>
+    </div>
+    <script src="scripts/login.js"></script>
+</body>
+</html>
+

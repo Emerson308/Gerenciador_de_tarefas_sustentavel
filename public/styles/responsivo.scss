@@ -1,0 +1,71 @@
+@media screen and (max-width: 600px){
+    header{
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+        // border: 1px solid red;
+        margin-bottom: 10px;
+        h1{
+            margin: 0;
+        }
+    }
+    .div-input-tarefa{
+        margin-bottom: 12px;
+    }
+    nav{
+        .logo{
+            display: flex;
+            font-size: 24px;
+        }
+        #menu-icon{
+            width: 40vw;
+            justify-content: flex-end;
+            // border: 1px solid limegreen;
+        }
+        .nav-list{
+            width: 40vw;
+        }
+    }
+    .opcoes-tarefa{
+        margin: 0;
+        display: flex;
+        margin-bottom: 12px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        justify-content: center;
+        // align-items: center;
+        button{
+            flex: 50%;
+        }
+    }
+    .tarefa{
+        .tarefa-icon{
+            flex: 10%;
+            justify-content: center;
+            align-items: center;
+            // border: 1px solid rebeccapurple;
+        }
+        .tarefa-texto{
+            flex: 70%;
+            padding-left: 1%;
+            justify-content: flex-start;
+            // border: 1px solid gold;
+        }
+        .tarefa-opcoes{
+            display: flex;
+            flex: 20%;
+            // border: 1px solid chartreuse;
+            justify-content: center;
+            align-items: center;
+            .btn-editar{
+                flex: 50%;
+                // border: 1px solid black;
+            }
+            .btn-delete{
+                flex: 50%;
+                // border: 1px solid black;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador tarefas</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="/styles/responsivo.css">
+</head>
+<body onload="checkLogin()">
+    <header>
+        <nav>
+            <div id="menu-icon">
+                <span id="menu-icon-span" class="material-symbols-outlined">menu</span>
+            </div>
+            <div id="headerLogo" class="logo"><a href="/">Hoje</a></div>
+        </nav>
+    </header>
+    <div id="containerFuncionalidades" class="menu-tarefas">
+    </div>
+    <div id="addTaskOptions" class="addTaskOptions">
+        <span class="material-symbols-outlined">add</span>
+    </div>
+    <div id="menuTaskHabit" class="addTaskHabit">
+        <div id="addHabit" class="addTB">
+            <span class="material-symbols-outlined">trophy</span>
+            <div class="addTBText">
+                <p>Hábito</p>
+                <p class="pDecoration">Atividade que se repete ao longo do tempo.</p>
+            </div>
+            <span class="material-symbols-outlined right">chevron_right</span>
+        </div>
+        <div id="addTask" class="addTB">
+            <span class="material-symbols-outlined">check</span>
+            <div id="btnFormsAdicionarTask" onclick="btnFormsAdicionarTask()" class="addTBText">
+                <p>Tarefa</p>
+                <p class="pDecoration">Atividade feita uma única vez.</p>
+            </div>
+            <span class="material-symbols-outlined right">chevron_right</span>
+        </div>
+    </div>
+    <div class="tab-bar">
+        <div onclick="btnHoje()" id="btnHoje" class="icon-tab-bar icon-hoje">
+            <img src="icons/clipboard.png" alt="">
+            Hoje
+        </div>
+        <div onclick="btnHabito()" id="btnHabito" class="icon-tab-bar icon-habitos">
+            <span class="material-symbols-outlined">workspace_premium</span>
+            Hábitos
+        </div>
+        <div onclick="btnTarefas()" id="btnTarefas" class="icon-tab-bar icon-alltasks">
+            <span class="material-symbols-outlined">task_alt</span>
+            Tarefas
+        </div>
+        <div onclick="btnMaisOpcoes()" id="btnMaisOpcoes" class="icon-tab-bar icon-moreoptions">
+            <span class="material-symbols-outlined">more_vert</span>
+            Mais
+        </div>
+    </div>
+    <div id="menuMoreOptions" class="menuMoreOptions">
+        <ul>
+            <li onclick="btnLinkOption('./ecoTask.html')" id="ecoTaskOption" class="allMoreOptions ecoTaskOption">
+                <span class="material-symbols-outlined">eco</span>
+                <div class="allMoreOptions-Text">Eco Task</div>
+                <span class="material-symbols-outlined right">chevron_right</span>
+            </li>
+        </ul>
+    </div>
+    <div id="containerAdicionarTask" class="containerAdicionarTask">
+        <div class="logoContainerAddTask">
+            <h2>Nova Tarefa</h2>
+        </div>
+        <form id="formsAddTask" action="/adicionar-tarefa" method="post" class="formsAddTask">
+            <div class="divInputTaskText">
+                <input id="inputTaskText" placeholder="" name="textTarefa" type="text" required autocomplete="Tarefa">
+                <label for="inputTaskText">Tarefa</label>
+            </div>
+            <div class="formsAddTaskOptions selecionarData">
+                <div class="formsAddTaskOptionsIcon iconeDataTask"><span class="material-symbols-outlined">calendar_month</span></div>
+                <label for="inputTaskDate">Data</label>
+                <input id="inputTaskDate" type="date" name="dataTarefa" required autocomplete="Data">
+            </div>
+            <div class="btnsSubmitCancelar">
+                <button type="button" onclick="btnCancelarAddTask()" id="formAddTaskCancelar">Cancelar</button>
+                <button type="submit" id="formAddTaskSubmit">Confirmar</button>
+            </div>
+        </form>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
